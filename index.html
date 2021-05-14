@@ -11,8 +11,8 @@
     <a-scene background="color: #C2D9FF">
       <a-assets>
           <img id="wood" src="images/wood.jpg" />
-          <img id="wood2" src="images/wood2.jpg" />
           <img id="framboos" src="images/pexels-valeriya-kobzar-7438528.jpg" />
+          <img id="zee" src="images/pexels-adam-lukac-1059979.jpg" />
       </a-assets>
 
       <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
@@ -23,7 +23,7 @@
         width="3" 
         height="1" 
         depth="1" 
-        material="src: #wood"
+        material="src: #framboos"
         shadow 
         animation__mouseenter="
           property: components.material.material.color; 
@@ -44,7 +44,7 @@
         width="3" 
         height="1" 
         depth="1" 
-        material="src: #wood"
+        material="src: #framboos"
         shadow>  
       </a-box>
       <a-plane id="ground"
@@ -53,7 +53,7 @@
         width="100" 
         height="100" 
         color="#7BC8A4" 
-        material="src: #framboos; repeat: 10 10"
+        material="src: #zee; repeat: 10 10"
         shadow>
       </a-plane> 
     </a-scene>
