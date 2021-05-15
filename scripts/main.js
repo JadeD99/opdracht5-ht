@@ -18,7 +18,6 @@ myOtherBox.addEventListener('mouseenter', function(){
 		
 });
 myOtherBox.addEventListener('mouseleave', function(){
-	rotationSpeed = 0.01;
-	console.log('mouse leave');
-		
+	rotationSpeed = 0.001;
+	console.log('left');
 });
